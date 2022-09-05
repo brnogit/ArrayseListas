@@ -17,6 +17,11 @@ namespace ArrayseListas
             {
                 numbersCopy[i] = numbers[i];
             }
+
+            // retornar uma lista de inteiro
+            var numbersString = "0 1 2 3 4 5 6 7 8 9";
+            var numbersArray = numbersString.Split(' ');
+            var numbersConvertedFromString = Array.ConvertAll(numbersArray, Convert.ToInt32);
             #endregion Arrays
 
             #region LINQ
